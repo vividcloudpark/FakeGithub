@@ -1,0 +1,118 @@
+.container{
+    width: 1200px;
+    /*align-content: center;*/
+    margin:0px 300px 0px 300px;
+}
+
+/*헤더부분*/
+header{
+    margin: 0px 0px;
+    background-color:#F5F5F5;
+}
+#first_header tr{
+
+}
+
+#first_header{
+    /*display: inline-block;*/
+    height: 50px;
+}
+#ThisRepo{
+    border: outset;
+    border-width: 1px;
+    border-color: darkgrey;
+}
+
+
+
+
+/*헤더 오른쪽부분*/
+
+#signupandin{
+    float: right;
+}
+
+.signup{
+    background-color: #84d667;
+    border-color: #84d667;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+.signin{
+    background-color: white;
+    border-color: #84d667;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+
+/*왼쪽바디*/
+
+.bluecolor{
+    color: #427ac1;
+}
+
+#contents{
+    float:left;
+    border-style:solid;
+    border-width:1px;
+    height:1000px;
+
+}
+
+#firstsentence {
+    padding : 10px;
+}
+
+#statustable {
+    display:inline-block;
+    border: solid;
+}
+
+#statustable th {
+    padding: 10px 50px;
+}
+
+#statustable img {
+    opacity: 10%
+}
+#listbutton {
+    float: right;
+}
+
+
+
+#buttonworld {
+    padding: 10px 0px 10px 0px;
+}
+
+#gitcompare {
+    background-color: #84d667;
+    border-color: #84d667;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+.statusicon {
+    fill: gray;
+}
+
+#readmetable {
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+#readme_head {
+    background-color: gray;
+}
+
+/*오른쪽콘텐츠*/
+
+#right{
+    border-style:solid;
+    border-width:1px;
+    height:1000px;
+}
+
+
