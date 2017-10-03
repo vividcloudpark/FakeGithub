@@ -22,10 +22,6 @@ header{
     border-width: 1px;
     border-color: darkgrey;
 }
-
-
-
-
 /*헤더 오른쪽부분*/
 
 #signupandin{
@@ -46,10 +42,20 @@ header{
     padding: 3px 8px;
 }
 
+#header2{
+    padding: 20px 0px;
+    font-size: 150%;
+
+}
+
+#header2 #rightbuttons{
+    float: right;
+
+}
 
 /*왼쪽바디*/
 
-.bluecolor{
+span .textblue{
     color: #427ac1;
 }
 
@@ -68,20 +74,16 @@ header{
 #statustable {
     display:inline-block;
     border: solid;
+    border-color: #ececec;
 }
 
 #statustable th {
     padding: 10px 50px;
 }
 
-#statustable img {
-    opacity: 10%
-}
 #listbutton {
     float: right;
 }
-
-
 
 #buttonworld {
     padding: 10px 0px 10px 0px;
@@ -92,10 +94,6 @@ header{
     border-color: #84d667;
     border-radius: 5px;
     padding: 3px 8px;
-}
-
-.statusicon {
-    fill: gray;
 }
 
 #readmetable {
