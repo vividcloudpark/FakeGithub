@@ -1,7 +1,11 @@
+* {
+    font-family: Arial;
+}
 .container{
     width: 1200px;
     /*align-content: center;*/
     margin:0px 300px 0px 300px;
+    padding: 0px 5px 0px 5px;
 }
 
 /*헤더부분*/
@@ -45,40 +49,61 @@ header{
 #header2{
     padding: 20px 0px;
     font-size: 150%;
-
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f2f2f2;
 }
 
 #header2 #rightbuttons{
     float: right;
+}
 
+#left_Knowre svg{
+    width: 20px;
 }
 
 /*왼쪽바디*/
 
-span .textblue{
-    color: #427ac1;
-}
-
 #contents{
     float:left;
     border-style:solid;
-    border-width:1px;
-    height:1000px;
+    border-width: 1px;
+    border-color: red;
 }
+
+.textblue{
+    color: #427ac1;
+}
+
+.textgrey{
+    color: #9a9a9a;
+}
+
+.textblack{
+    color: black;
+}
+
 
 
 #firstsentence {
-    padding : 10px;
+    padding : 25px 0px 25px 0px;
 }
 
 #statustable {
-    display:inline-block;
     border: solid;
+    border-width: 2px;
+    border-radius: 2px;
     border-color: #ececec;
 }
 
 #statustable th {
     padding: 10px 50px;
+    border-width: thin;
+}
+
+#yellowblock {
+    height: 10px;
+    background-color: #f1e05a;
 }
 
 #listbutton {
@@ -89,6 +114,17 @@ span .textblue{
     padding: 10px 0px 10px 0px;
 }
 
+.branch_button {
+    height: 30px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    border-color: #e6e6e6;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 500;
+    border-width: thin;
+}
+
 #gitcompare {
     background-color: #84d667;
     border-color: #84d667;
@@ -96,13 +132,30 @@ span .textblue{
     padding: 3px 8px;
 }
 
-#readmetable {
+.readmetable {
+    width: 100%;
     border: solid;
     border-width: 1px;
-    border-color: gray;
+    border-color: #e5e5e5;
 }
-#readme_head {
-    background-color: gray;
+
+.readme_head{
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.readme_contents{
+    margin: 50px 30px 50px 30px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px ;
+    border-bottom-color: #f2f2f2;
+    font-weight: 700;
+}
+
+#readme_content_text{
+    font-size: 250%;
+    color: black;
 }
 
 /*오른쪽콘텐츠*/
