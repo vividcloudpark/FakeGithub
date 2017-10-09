@@ -4,7 +4,7 @@
 .container{
     width: 1200px;
     /*align-content: center;*/
-    margin:0px 300px 0px 300px;
+    margin: 0px 300px 0px 300px;
     padding: 0px 5px 0px 5px;
 }
 
@@ -165,5 +165,49 @@ header{
     border-width:1px;
     height:1000px;
 }
+.navigation{
 
+}
+
+
+
+
+.navigation li{
+    display:block;
+    margin: 20px 0px 20px 0px;
+
+}
+.right_div{
+    margin: 50px 50px 50px 880px;
+    width: 200px;
+    height: 1000px;
+
+}
+#code{
+
+    margin:0px 0px 0px 0px;
+
+}
+#issues{
+
+}
+.https{
+    margin-left:10px;
+}
+
+.github_search{
+    width:150px;
+    margin-left:10px;
+}
+
+#clone_in_desktop{
+    width:180px;
+    height:30px;
+    margin-left:10px;
+}
+#download_zip{
+    width:180px;
+    height:30px;
+    margin-left:10px;
+}
 
