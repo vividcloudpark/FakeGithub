@@ -3,9 +3,10 @@
 }
 .container{
     width: 1200px;
-    /*align-content: center;*/
+    display: inline-block;
     margin: 0px 300px 0px 300px;
     padding: 0px 5px 0px 5px;
+
 }
 
 /*헤더부분*/
@@ -65,10 +66,13 @@ header{
 /*왼쪽바디*/
 
 #contents{
-    float:left;
+    width: 900px;
+    height: 1000px;
     border-style:solid;
     border-width: 1px;
     border-color: red;
+    float: left;
+    /*margin-right: 10px;*/
 }
 
 .textblue{
@@ -161,53 +165,43 @@ header{
 /*오른쪽콘텐츠*/
 
 #right{
+    width: 280px;
+    border-color: blue;
     border-style:solid;
     border-width:1px;
-    height:1000px;
-}
-.navigation{
-
+    margin-left: 10px;
+    float: right;
 }
 
-
-
-
-.navigation li{
-    display:block;
-    margin: 20px 0px 20px 0px;
-
+.right_contents{
+    width: 250px;
 }
-.right_div{
-    margin: 50px 50px 50px 880px;
-    width: 200px;
-    height: 1000px;
-
+.navigation li {
+    display: block;
+    padding: 20px 0px 20px 0px;
 }
+
 #code{
-
-    margin:0px 0px 0px 0px;
-
+    padding:0px 0px 0px 0px;
 }
-#issues{
 
-}
 .https{
-    margin-left:10px;
+    padding-left: 20px;
 }
 
 .github_search{
-    width:150px;
-    margin-left:10px;
+    width:200px;
+    padding-left: 20px;
 }
 
 #clone_in_desktop{
-    width:180px;
+    width:200px;
     height:30px;
-    margin-left:10px;
+    padding-left: 20px;
 }
 #download_zip{
-    width:180px;
+    width:200px;
     height:30px;
-    margin-left:10px;
+    padding-left: 20px;
 }
 
