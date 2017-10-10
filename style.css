@@ -184,9 +184,9 @@ header{
 }
 .navigation{
     background-color:#f8f8f8;
-    width:200px;
+    width:250px;
     border-radius:3px;
-    margin-left:30px;
+    margin-left:25px;
 
 }
 .navigation li:hover{
