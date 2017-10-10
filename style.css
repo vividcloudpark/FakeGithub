@@ -179,29 +179,50 @@ header{
 .navigation li {
     display: block;
     padding: 20px 0px 20px 0px;
-}
+    color: #427ac1;
 
+}
+.navigation{
+    background-color:#f8f8f8;
+    width:200px;
+    border-radius:3px;
+    margin-left:30px;
+
+}
+.navigation li:hover{
+    background-color:white;
+    color:black;
+    border-radius:5px;
+    border-top:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    border-right:5px solid orangered;
+
+}
 #code{
-    padding:0px 0px 0px 0px;
+    padding:20px 0px 20px 0px;
 }
 
-.https{
-    padding-left: 20px;
-}
+
 
 .github_search{
     width:200px;
     padding-left: 20px;
+    border-radius: 3px;
 }
-
+#search{
+    margin-left:30px;
+}
+#right_bottom{
+    margin-left:35px;
+}
 #clone_in_desktop{
     width:200px;
     height:30px;
-    padding-left: 20px;
+    text-align:center;
 }
 #download_zip{
     width:200px;
     height:30px;
-    padding-left: 20px;
+    text-align:center;
 }
 
