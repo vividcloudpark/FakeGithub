@@ -67,9 +67,8 @@ header{
 
 #contents{
     width: 900px;
-    height: 1000px;
     border-style:solid;
-    border-width: 1px;
+    border-width: 0px;
     border-color: red;
     float: left;
     /*margin-right: 10px;*/
@@ -137,7 +136,6 @@ header{
 }
 
 .readmetable {
-    width: 100%;
     border: solid;
     border-width: 1px;
     border-color: #e5e5e5;
@@ -294,6 +292,13 @@ td {
 
 #href{
     color: #427ac1;
+}
+
+.footer_border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f2f2f2;
+    margin: 30px 0px 30px 0px;
 }
 
 
