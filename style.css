@@ -235,7 +235,7 @@ header{
 
 /*왼쪽바디 표*/
 a:link {
-    text-decoration: none; color: #114d96;
+    text-decoration: none; color: #427ac1;
 }
 #branch_bar{
     background-color: #F5F5F5;
@@ -244,11 +244,6 @@ a:link {
     border-color: #e5e5e5;
     border-width: 1px;
     color: grey;
-
-}
-#branch_bar img{
-    width: 14px;
-    height: 16px;
     padding-top: 5px;
 }
 
@@ -278,12 +273,6 @@ table#main_table #main_tab_col2, #main_tab_col5{
 }
 table#main_table td{
     padding-left: 10px;
-}
-td img{
-    width: 14px;
-    height: 16px;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 td {
     height: 30px;
