@@ -181,9 +181,8 @@ input[type=text]{
 
 #contents{
     width: 900px;
-    height: 1000px;
     border-style:solid;
-    border-width: 1px;
+    border-width: 0px;
     border-color: red;
     float: left;
     /*margin-right: 10px;*/
@@ -251,7 +250,6 @@ input[type=text]{
 }
 
 .readmetable {
-    width: 100%;
     border: solid;
     border-width: 1px;
     border-color: #e5e5e5;
@@ -340,6 +338,7 @@ input[type=text]{
     width:200px;
     height:30px;
     text-align:center;
+    margin-bottom:10px;
 }
 #download_zip{
     width:200px;
@@ -349,7 +348,7 @@ input[type=text]{
 
 /*왼쪽바디 표*/
 a:link {
-    text-decoration: none; color: #114d96;
+    text-decoration: none; color: #427ac1;
 }
 #branch_bar{
     background-color: #F5F5F5;
@@ -358,11 +357,6 @@ a:link {
     border-color: #e5e5e5;
     border-width: 1px;
     color: grey;
-
-}
-#branch_bar img{
-    width: 14px;
-    height: 16px;
     padding-top: 5px;
 }
 
@@ -393,12 +387,6 @@ table#main_table #main_tab_col2, #main_tab_col5{
 table#main_table td{
     padding-left: 10px;
 }
-td img{
-    width: 14px;
-    height: 16px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
 td {
     height: 30px;
 }
@@ -409,5 +397,61 @@ td {
 #href{
     color: #427ac1;
 }
+
+
+.github_search{
+    height:25px;
+
+}
+
+
+footer {
+    height: 50px;
+    display: inline;
+
+}
+#footer_left{
+    float:left;
+    height: auto;
+    display: inline;
+    padding-top: 15px;
+}
+
+.footer_left_table{
+    padding: 0px 7px 0px 7px;
+}
+
+#footer_right{
+    float:right;
+    display: inline;
+    padding-top: 15px;
+}
+.footer_right_table{
+    padding: 0px 5px 0px 5px;
+}
+
+.footer_logo{
+    height: 50px;
+    padding-top: 1%;
+    position: relative;
+    /*margin: 10px auto 10px auto;*/
+    display: inline;
+    padding-left: 13%
+
+}
+
+.github_search{
+    height:25px;
+
+}
+
+
+.footer_border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f2f2f2;
+    margin: 30px 0px 30px 0px;
+}
+
 
 
