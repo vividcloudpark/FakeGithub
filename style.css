@@ -291,6 +291,47 @@ td {
 }
 
 
+footer {
+    height: 50px;
+    display: inline;
+
+}
+#footer_left{
+    float:left;
+    height: auto;
+    display: inline;
+    padding-top: 15px;
+}
+
+.footer_left_table{
+    padding: 0px 7px 0px 7px;
+}
+
+#footer_right{
+    float:right;
+    display: inline;
+    padding-top: 15px;
+}
+.footer_right_table{
+    padding: 0px 5px 0px 5px;
+}
+
+.footer_logo{
+    height: 50px;
+    padding-top: 1%;
+    position: relative;
+    /*margin: 10px auto 10px auto;*/
+    display: inline;
+    padding-left: 13%
+
+}
+
+.github_search{
+    height:25px;
+
+}
+
+
 .footer_border{
     border-style: solid;
     border-width: 1px;
